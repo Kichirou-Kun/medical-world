@@ -1,0 +1,17 @@
+.category_slice {
+  width: 20%;
+}
+
+@media only screen and (max-width: 640px) {
+  .category_slice {
+    width: 30%;
+    margin: 1rem;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .category_slice {
+    width: 40%;
+    margin: 1rem;
+  }
+}

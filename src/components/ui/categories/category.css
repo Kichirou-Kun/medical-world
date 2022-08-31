@@ -1,0 +1,17 @@
+.slice {
+    width: 20%;
+}
+
+@media only screen and (max-width: 640px) {
+    .slice {
+        width: 30%;
+        margin: 1rem;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .slice {
+        width: 40%;
+        margin: 1rem;
+    }
+}

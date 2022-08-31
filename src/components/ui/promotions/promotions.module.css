@@ -1,0 +1,11 @@
+.promotions_slice {
+  width: 20%;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .promotions_slice {
+    width: 30%;
+    cursor: pointer;
+  }
+}
